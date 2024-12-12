@@ -15,6 +15,6 @@ Copiar o conteudo para a pasta [/code], padrãozinho do projeto
 
 ### Para executar o projeto
 ```sh
-npm run serve  --port '8081'
+npm run serve -- --port '8081'
 ```
 
