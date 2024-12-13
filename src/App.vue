@@ -30,7 +30,7 @@ export default {
   },
   methods: {
     handleSubmit() {
-      fetch('http://localhost:8080/api-auth/login/', {
+      fetch('http://'+window.location.hostname+':8080/api-auth/login/', {
         method: 'POST',        
         headers: {
           'Content-Type': 'application/json',
